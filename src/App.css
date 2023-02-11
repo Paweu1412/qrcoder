@@ -1,4 +1,10 @@
-.qrcode-area {
+.main--qrcode-area {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.main--input-area {
     display: flex;
     justify-content: center;
 }

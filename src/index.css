@@ -12,21 +12,26 @@ body {
 header {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 header .header--title {
   padding-top: 100px;
   padding-bottom: 50px;
-  color: white;
 }
 
 header .header--title h1 {
   font-size: 50px;
-  line-height: 0%;
+  color: white;
 }
 
 header .header--title h2 {
   font-size: 25px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+main {
+  position: relative;
 }
 
 .icon--heartbeat {
