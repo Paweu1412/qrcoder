@@ -46,6 +46,7 @@ export function Input(props) {
         }}
         style={{ width: 300 }}
         onChange={(e) => props.typedText(e.target.value)}
+        inputProps={{ maxLength: 400 }}
       />
     </div>
   );
