@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header .header--title {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+header .header--title h1 {
+  font-size: 50px;
+  line-height: 0%;
+}
+
+header .header--title h2 {
+  font-size: 25px;
+}
+
+.icon--heartbeat {
+  animation: beat .25s infinite alternate;
+	transform-origin: center;
+}
+
+@keyframes beat {
+	to { 
+    transform: scale(1.1); 
+  }
+}
