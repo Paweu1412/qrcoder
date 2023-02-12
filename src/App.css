@@ -7,4 +7,5 @@
 .main--input-area {
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
