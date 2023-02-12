@@ -1,12 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import FavoriteIcon from "@mui/icons-material/Favorite";
-
 import "./background.css";
 import "./index.css";
 
-import { Generator } from "./App";
+import { Title, Generator } from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -26,28 +24,12 @@ root.render(
 
     <div className="container container--background">
       <header>
-        <div className="header--title">
-          <center>
-            <h1>QR Code Generator</h1>
-            <h2>
-              Made with{" "}
-              <FavoriteIcon
-                className="icon--heartbeat"
-                style={{ color: "red" }}
-              />{" "}
-              by Paweł Sumara
-            </h2>
-          </center>
-        </div>
+        <Title />
       </header>
 
       <main>
         <Generator />
       </main>
-
-      <footer>
-        
-      </footer>
     </div>
   </React.StrictMode>
 );
