@@ -51,7 +51,7 @@ export function Generator() {
   useEffect(() => {
     QRCode.toCanvas(
       canvasRef.current,
-      text || "",
+      text || " ",
       (error) => error && console.log(error)
     );
   }, [text]);
