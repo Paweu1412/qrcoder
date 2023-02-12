@@ -41,7 +41,7 @@ export function Input(props) {
         variant="filled"
         size="small"
         sx={{
-          label: { color: "rgb(255 255 255 / 60%)" },
+          label: { color: "rgb(255 255 255 / 80%)" },
           input: { color: "white" },
         }}
         style={{ width: 300 }}

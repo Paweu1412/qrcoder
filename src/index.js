@@ -44,6 +44,10 @@ root.render(
       <main>
         <Generator />
       </main>
+
+      <footer>
+        
+      </footer>
     </div>
   </React.StrictMode>
 );
