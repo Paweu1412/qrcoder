@@ -38,7 +38,7 @@ function Input(props) {
         }}
         style={{ width: 300 }}
         onChange={(e) => props.typedText(e.target.value)}
-        inputProps={{ maxLength: 300 }}
+        inputProps={{ maxLength: 600 }}
       />
     </div>
   );
@@ -59,7 +59,7 @@ export function Generator() {
   return (
     <div>
       <div className="main--qrcode-area">
-        <canvas ref={canvasRef} />
+        <canvas style={{ maxHeight: '300px', maxWidth: '300px' }} ref={canvasRef} />
       </div>
 
       <div>
